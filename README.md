@@ -128,8 +128,11 @@ trialpulse/
 
 ---
 
-### Trial Volume and Discontinuation Trends
-![Trial Volume and Discontinuation Trends](reports/figures/fig09_trials_over_time.png)
+### Trial Volume Over Time
+![Trial volume by year](reports/figures/fig09a_volume_by_year.png)
+
+### Discontinuation Rate Over Time
+![Discontinuation rate by year](reports/figures/fig09b_discontinuation_rate_by_year.png)
 
 *Trial volume has increased substantially over time; recent-year discontinuation rates should be interpreted cautiously due to right-censoring.*
 
