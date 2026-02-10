@@ -18,8 +18,15 @@ data/interim/
 data/processed/
 
 # Outputs (regenerated)
-reports/figures/
-reports/tables/
+# reports/figures/
+# reports/tables/
 
 # Streamlit
 .streamlit/
+
+
+# --- Allow committed reporting outputs for portfolio ---
+!reports/
+!reports/**/
+!reports/figures/**
+!reports/tables/**
