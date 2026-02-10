@@ -1,31 +1,47 @@
+# =========================
 # Environments
+# =========================
 .venv/
 conda-meta/
 
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 
+# =========================
 # OS
+# =========================
 .DS_Store
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
+# =========================
 # Data artifacts (regenerated)
+# =========================
 data/raw/
 data/interim/
 data/processed/
 
-# Outputs (regenerated)
-# reports/figures/
-# reports/tables/
+# =========================
+# Outputs (selectively versioned)
+# =========================
 
+# Ignore interactive Plotly exports
+reports/figures/*.html
+
+# =========================
 # Streamlit
+# =========================
 .streamlit/
 
-
-# --- Allow committed reporting outputs for portfolio ---
+# =========================
+# Allow committed reporting outputs for portfolio
+# =========================
 !reports/
 !reports/**/
 !reports/figures/**
