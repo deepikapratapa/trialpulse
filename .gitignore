@@ -1,0 +1,25 @@
+# Environments
+.venv/
+conda-meta/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts (regenerated)
+data/raw/
+data/interim/
+data/processed/
+
+# Outputs (regenerated)
+reports/figures/
+reports/tables/
+
+# Streamlit
+.streamlit/
