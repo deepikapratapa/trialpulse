@@ -9,7 +9,7 @@ The project focuses on **Phase II–III interventional trials** and answers prac
 - sponsor and indication differences,
 - and geographic execution complexity.
 
-This is not a modeling-heavy project. The emphasis is on **interpretable analytics**, reproducibility, and executive-ready insights.
+This is not a modeling-heavy project. The emphasis is on **interpretable analytics**, reproducibility, and **executive-ready insights**.
 
 ---
 
@@ -63,13 +63,12 @@ trialpulse/
 │   ├── interim/             # Schema checks & QA artifacts
 │   └── processed/           # Analysis-ready datasets
 ├── reports/
-│   ├── figures/             # Executive-ready Plotly figures (HTML)
+│   ├── figures/             # Executive-ready figures (HTML + PNG)
 │   └── tables/              # KPI and summary tables (CSV)
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
-
 ---
 
 ## Key Questions Answered
@@ -106,6 +105,36 @@ trialpulse/
 
 ---
 
+## Selected Visual Insights
+
+### Trial Duration by Phase
+![Trial Duration by Phase](reports/figures/fig01_duration_by_phase.png)
+
+*Phase III trials exhibit longer and more variable cycle times than Phase II, reflecting higher operational cost and execution complexity.*
+
+---
+
+### Outcome Mix by Phase
+![Outcome Mix by Phase](reports/figures/fig04_outcome_mix_by_phase.png)
+
+*Phase-specific completion and discontinuation rates highlight differing operational risk profiles across the development lifecycle.*
+
+---
+
+### Top Discontinuation Themes
+![Top Discontinuation Themes](reports/figures/fig06_top_discontinuation_themes.png)
+
+*Reported termination and withdrawal reasons cluster into a small number of operationally actionable themes, most commonly enrollment, funding/business, and safety.*
+
+---
+
+### Trial Volume and Discontinuation Trends
+![Trial Volume and Discontinuation Trends](reports/figures/fig09_trials_over_time.png)
+
+*Trial volume has increased substantially over time; recent-year discontinuation rates should be interpreted cautiously due to right-censoring.*
+
+---
+
 ## Dashboard
 
 Run locally:
@@ -114,9 +143,7 @@ Run locally:
 conda activate trialpulse
 streamlit run app/app.py
 ```
-
 The dashboard is intentionally lightweight and reads from pre-computed analytics outputs to ensure fast, reproducible execution.
-
 
 ## Key Insights (Examples)
 
@@ -153,12 +180,9 @@ This project is designed for:
 **Deepika Sarala Pratapa**  
 Final-semester **M.S. Applied Data Science** student focused on **clinical analytics and healthcare data roles**, with an emphasis on **reproducible, decision-oriented analytics**.
 
-- 📧 Email: [deepikapratapa27@gmail.com](mailto:your.deepikapratapa27@gmail.com)  
-- 💼 LinkedIn: https://www.linkedin.com/in/deepika-sarala-pratapa/  
-- 🧠 GitHub: https://github.com/deepikapratapa
-
-
-
+- Email: [deepikapratapa27@gmail.com](mailto:deepikapratapa27@gmail.com)  
+- LinkedIn: https://www.linkedin.com/in/deepika-sarala-pratapa/  
+- GitHub: https://github.com/deepikapratapa
 
 
 
