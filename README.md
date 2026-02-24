@@ -64,11 +64,16 @@ trialpulse/
 │   └── 04_analysis_visuals.ipynb
 ├── src/                     # Shared utilities
 │   └── __init__.py
-├── sas/                     # Statistical modeling layer (SAS)
-│   ├── 00_setup.sas
-│   ├── 01_hypothesis_testing.sas
-│   ├── 02_logistic_model.sas
-│   └── 03_model_diagnostics.sas
+├── sas/
+│   └── programs/
+│       ├── 00_setup.sas                    # Library assignment and project configuration
+│       ├── 01a_file_check.sas              # Input validation and dataset inspection
+│       ├── 01b_fix_obs_and_rebuild.sas     # Data cleaning and observation correction
+│       ├── 01_import_build.sas             # Initial dataset build workflow
+│       ├── 01_import_build_FINAL.sas       # Finalized analysis-ready dataset creation
+│       ├── 02_tables.sas                   # Descriptive summaries and KPI tables
+│       ├── 03_modeling.sas                 # Multivariable logistic regression model
+│       └── 04_statistical_tests.sas        # Chi-square, Kruskal-Wallis, trend tests
 ├── data/
 │   ├── raw/
 │   ├── interim/
