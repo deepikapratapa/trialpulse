@@ -46,3 +46,4 @@ reports/figures/*.html
 !reports/**/
 !reports/figures/**
 !reports/tables/**
+reports/figures/*.html
